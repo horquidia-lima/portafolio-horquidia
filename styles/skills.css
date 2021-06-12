@@ -1,0 +1,38 @@
+.skills {
+    padding-block-start: 60px;
+    color: var(--white);
+    gap: 12px;
+}
+
+.skills-image img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.skills-description h1{
+    text-align: center;
+    font: var(--headline5);
+}
+
+.skills-icon {
+    text-align: center;
+}
+.icon-s img {
+   padding: 5px;
+}
+
+@media screen  and (min-width: 768px){
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+}
+
+
+
+
+
+

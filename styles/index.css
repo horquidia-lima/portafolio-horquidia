@@ -1,0 +1,39 @@
+@import 'header.css';
+@import 'menu.css';
+@import 'button.css';
+@import 'wrapper.css';
+@import 'hero.css';
+@import 'social.css';
+@import 'button-icon.css';
+@import 'skills.css';
+
+:root{
+    --fontBase: 'Oxygen', sans-serif;
+
+    --headline1: bold 95px/153.71px var(--fontBase);
+    --headline2: bold 59px/95.46px var(--fontBase);
+    --headline3: bold 48px/77.66px var(--fontBase);
+    --headline4: bold 34px/55.01px var(--fontBase);
+    --headline5: bold 24px/38.83px var(--fontBase);
+
+    --body1: normal 16px/25.89px var(--fontBase);
+    --body2: normal 14px/22.65px var(--fontBase);
+    --button: normal 14px/22.65px var(--fontBase);
+    --caption: normal 12px/19.42px var(--fontBase);
+
+    --fondo: #8D48D8;
+    --primary: #BD34D1;
+    --secondary: #1AAE9F;
+    --white: white;
+    --black: #0F0A0A;
+    --fff: #AACFEF;
+    --lll: #8123DD
+}
+
+
+body {
+    background: var(--lll);
+    font: var(--body1);
+    min-block-size: 100vh;
+    margin: 0;
+}
